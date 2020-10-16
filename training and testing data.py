@@ -2,6 +2,7 @@ from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
 import time
+import sci-kit
 from collections import Counter
 
 from matplotlib import style
@@ -102,6 +103,6 @@ def whatNumIsThis(filePath):
     xloc = plt.MaxNLocator(12)
     ax2.xaxis.set_major_locator(xloc)
 
-    plt.show()
+    plt.show(graphX)
 
 whatNumIsThis('images/test.png')
