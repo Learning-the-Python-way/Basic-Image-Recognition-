@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import time
 import sci-kit
+import keras
 from collections import Counter
 
 from matplotlib import style
